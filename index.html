@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Plesoianu Andrei-Bogdan">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portofolio webpage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/stylesheets/main.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/sal.css">
+</head>
+<body>
+
+    <div class="more-information">
+        <div class="container" style="z-index: 250;">
+            <div class="heading-div more-info-dis" style="width: 100%; text-align: center; margin-bottom: 90px;">
+                <span style="font-size: 1.2rem;">Quick content</span>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="info-col">
+                        <div class="col-title text-center">
+                            <a href="#about" class="info-button">About me</a>
+                        </div>
+                        <div class="col-content text-left">
+                            <span>Hi, I'm <strong>Andrei</strong>, an aspiring full stack developer from Bucharest, Romania.</span>
+                            <span>I am curently doing a Computer Science degree at University Politehnica in Bucharest. </span>
+                            <span class="more-info-dis">Besides coding, I am also a fan of design, photography, tennis and guitar playing. So I could say that my motto would be curiosity itself...</span>
+                            <span class="more-info-dis">...so that would be me. If you want more info though, check my <a href="#">CV</a> or <a href="#">this</a> section.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                   <div class="info-col">
+                       <div class="col-title text-center">
+                            <a href="#projects" class="info-button">My projects</a>
+                       </div>
+                        <div class="col-content text-left">
+                            <span>Check out some of the most important projects I have worked on up to this point...</span>
+                            <span class="more-info-dis">...or check the complete list of my personal projects by clicking <a href="#">This</a></span>
+                        </div>
+                   </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <div class="info-col">
+                        <div class="col-title text-center">
+                            <a href="#contact" class="info-button">Say hi :D</a>
+                        </div>
+                        <div class="col-content text-left">
+                            <span>If you like my work and maybe want to get in contact so we could build something together...</span>
+                            <span>...leave your email and maybe a short description of your idea and I will reach to you as soon as possible</span>
+                            <form class="more-info-dis">
+                                <input type="email" class="form-control" placeholder="Email" style="margin-bottom: 7px;"/>
+                                <textarea placeholder="Message" cols="20" class="form-control" style="margin-bottom: 10px; height: 120px;"></textarea>
+                                <button type="button" class="btn btn-md">Send</button>
+                            </form>
+                            <span class="more-info-dis">Thanks for your input :)</span>
+                        </div>    
+                    </div>     
+                </div>
+            </div>
+            <div class="media-icons text-center">
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-facebook-square"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- the navbar at the top of the screen -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="navbar-brand more-info-dis">
+            <span id="brand">Andrei</span>
+        </div>
+
+        <!-- the options from the navbar -->
+        <div class="logo-section ml-auto">
+            <div class="animate-me my-div-animate">
+                <div class="first-line">
+                </div>
+                <div class="second-line">
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Top section of the page -->
+    <div class="my-container full-size" style="background-color: #1a1a1d;">
+        <div class="container header-container">
+            <div class="center-container">
+                <p id="heading">Hi, I'm</p>
+                <h1>Plesoianu Andrei-Bogdan</h1>
+                <p id="sub-heading">...an aspiring <span class="light-pink">full stack</span> web developer based in <span id="location" class="light-pink">Bucharest</span></p>
+                <button type="button" class="btn btn-lg header-button">Check some of my work</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- About me section right here -->
+    <div class="full-size my-container gradient-background" id="about">
+        <div class="whole-container">
+            <div class="about-container text-center" >
+                <h2 style="font-weight: bold; font-family: 'Poppins', sans-serif; font-size: 2.5rem; color: black;"
+                    data-sal-duration="800"
+                    data-sal="zoom-in"
+                    data-sal-delay="200"
+                    data-sal-easing="ease-out-bounce"
+                    >About me</h2>
+                <img src="./assets/images/profile-pic.jpg" alt="Profile pic" id="profile-pic" class="rounded-circle"
+                    data-sal-duration="800"
+                    data-sal="zoom-in"
+                    data-sal-delay="400"
+                    data-sal-easing="ease-out-bounce">
+                <hr />
+                <div class="sub-image"
+                    data-sal-duration="1000"
+                    data-sal="slide-left"
+                    data-sal-delay="300"
+                    data-sal-easing="ease-out-bounce"
+                    >
+                    <p>I'm <strong>Andrei</strong> and I am curently doing a <i>Computer Science</i> degree at University Politehnica in Bucharest, Romania.</p>
+                    <p>This year I've developed a mad passion for <strong>full-stack</strong> web developpment and so I've started learning how to <strong>design</strong> and <strong>code</strong> web apps with <i>Angular</i> as my favourite framework on the
+                    <strong>front end</strong>, while using <i>Firebase</i>, <i>GCP</i>, as serverless options for the <strong>back end</strong>, or use <i>Node</i>, <i>Express</i> and <i>MongoDB/Redis</i> for <strong>full fledged</strong> server implementations.</p>
+                    <p>So now I'm looking into getting more experience while helping you <strong>create</strong> your dream products.</p>
+                </div>
+
+                <div class="cv-button"
+                    data-sal-duration="1000"
+                    data-sal="fade"
+                    data-sal-delay="300"
+                    data-sal-easing="ease-out-bounce"
+                    >
+                    <button type="button" class="btn btn-md"><i class="far fa-file-alt" style="margin-right: 5px;"></i>Check CV</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills section bellow -->
+    <div class="container-fluid" style="font-family: 'Poppins', sans-serif; margin-top: 50px; padding-top: 100px; padding-bottom: 50px;" id="skills">
+        <div class="row" style="margin-bottom: 300px;" id="skills-total">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 more-info-dis"
+                    data-sal-duration="700"
+                    data-sal="slide-right"
+                    data-sal-delay="200"
+                    data-sal-easing="ease-out-bounce">
+                <div style="width: 80%; margin-left: 10%; margin-right: 10%">
+                    <canvas id="canvasFront"></canvas>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12"
+                    data-sal-duration="700"
+                    data-sal="slide-left"
+                    data-sal-delay="200"
+                    data-sal-easing="ease-out-bounce">
+                <div style="width: 80%; margin-left: 0; margin-right: 20%;" class="skill-column">
+                    <div style="width: 100%; text-align: center;">
+                        <h2 style="font-weight: bold; font-size: 3rem;" id="skills-header">Front end experience</h2>
+                        <div>
+                            <span style="color: gray; margin-top: 20px; display: block; font-size: 1.2rem;" id="skills-text">I work with Angular as the primary framework to develop high quality SPA apps, or just with vanilla Javascript
+                                if a normal Server Side Rendered app is prefered. I also use Bootstrap or Materialize heavily for design purposes, while sometimes using XD for first hand design or Illustrator for small logos.
+                            </span>
+                        </div>
+                        <div id="skills-label">
+                            <span style="display: block; font-size: 1.5rem; font-weight: bolder; margin-bottom: -20px; margin-top: 30px;" id="fluency">Fluent</span>
+                            <div class="tech-used-line" style="margin-top: 0">
+                                <span class="label">Html</span>
+                                <span class="label">Css</span>
+                                <span class="label">Sass</span>
+                                <span class="label">Bootstrap</span>
+                                <span class="label">Angular</span>
+                                <span class="label">Javascript</span>
+                                <span class="label">Typescript</span>
+                            </div>
+                            <span style="display: block; font-size: 1.5rem; font-weight: bolder; margin-bottom: -20px; margin-top: 30px;" id="fluency">Have used</span>
+                            <div class="tech-used-line" style="margin-top: 0;">
+                                <span class="label alpha-red">Materialize</span>
+                                <span class="label alpha-red">Socket.io</span>
+                                <span class="label alpha-red">Chart.js</span>
+                                <span class="label alpha-red">D3.js</span>
+                                <span class="label alpha-red">Adobe XD</span>
+                                <span class="label alpha-red">Adobe Illustrator</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 300px;" id="skills-total">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                <div style="width: 80%; margin-left: 20%; margin-right: 0" class="skill-column"
+                        data-sal-duration="700"
+                        data-sal="slide-right"
+                        data-sal-delay="200"
+                        data-sal-easing="ease-out-bounce">
+                    <div style="width: 100%; text-align: center;">
+                        <h2 style="font-weight: bold; font-size: 3rem;" id="skills-header">Back end experience</h2>
+                        <div>
+                            <span style="color: gray; margin-top: 20px; display: block; font-size: 1.2rem;" id="skills-text">I work with Angular as the primary framework to develop high quality SPA apps, or just with vanilla Javascript
+                                if a normal Server Side Rendered app is prefered. I also use Bootstrap or Materialize heavily for design purposes.
+                            </span>
+                        </div>
+                        <div class="skills-labels">
+                            <span style="display: block; font-size: 1.5rem; font-weight: bolder; margin-bottom: -20px; margin-top: 30px;" id="fluency">Fluent</span>
+                            <div class="tech-used-line" style="margin-top: 0;">
+                                <span class="label">Javascript</span>
+                                <span class="label">Ejs</span>
+                                <span class="label">Node</span>
+                                <span class="label">Express</span>
+                                <span class="label">MongoDB</span>
+                                <span class="label">Firebase</span>
+                                <span class="label">GCP</span>
+                            </div>
+                            <span style="display: block; font-size: 1.5rem; font-weight: bolder; margin-bottom: -20px; margin-top: 30px;" id="fluency">Have used</span>
+                            <div class="tech-used-line" style="margin-top: 0;">
+                                <span class="label alpha-red">Python</span>
+                                <span class="label alpha-red">Django</span>
+                                <span class="label alpha-red">PostgreSQL</span>
+                                <span class="label alpha-red">Redis</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 more-info-dis">
+                <div style="width: 80%; margin-left: 10%; margin-right: 10%"
+                        data-sal-duration="700"
+                        data-sal="slide-left"
+                        data-sal-delay="200"
+                        data-sal-easing="ease-out-bounce">
+                    <canvas id="canvasBack"></canvas>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- The projects area -->
+    <div class="full-size my-container" id="projects">
+        <div class="slideshow-container">
+            
+            <div class="mySlides projectCover">
+                <div class="center-div" style="padding: 50px; color: #fff;">
+                    <span style="display: block;  font-weight: bold; font-size: 6rem;" id="projects-header-text">Projects</span>
+                    <span style="display: block; font-size: 1.3rem; text-align: center;">Check some of my projects</span>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 hidden-images">
+                        <img src="./assets/images/becca-tapert-lA7OhpEMRug-unsplash.jpg" alt="Image" style="top: 120px; left: 130px;" class="myImage"/>
+                        <img src="./assets/images/bench-accounting-nvzvOPQW0gc-unsplash.jpg" alt="Image" style="top: 260px; left: 230px;" class="myImage"/>
+                        <img src="./assets/images/edgar-castrejon-CX8ooha2yLA-unsplash.jpg" alt="Image" style="top: 400px; left: 330px;" class="myImage"/>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 my-col">
+                        <div class="inner-container">
+                            <h2 id="gimifyTitle">Gymify</h2>
+                            <hr />
+                            <p id="description">A <span class="light-green">mobile ready</span> ideal companion for the gym, made with <i>Angular</i> and <i>Bootstrap</i> on the front end, and <i>Firebase
+                                    services</i> on the back end. Being a <span class="light-green">Single Page Application</span>, it also provides <i>authentication</i> and <i>authorization</i>, <i>route guarding</i>, <i>validation</i>, 
+                                    and <i>quick access</i> to the cloud database provided by Google through Firebase. The app is also a <span class="light-green">PWA</span> as it's <span class="light-green">caching data</span> through <i>service workers</i> for further <span class="light-green">offline ussage</span>. Also, being PWA, it could be installed from the web to the home screen with just one click. Design of the app was made by the help
+                                    of <span class="light-green">Adobe XD</span>.</p>
+                            
+                            <div class="tech-used-container">
+                                <p id="tech-used">Technologies used</p>
+                                <div class="tech-used-line">
+                                    <span class="label">Html</span>
+                                    <span class="label">Sass</span>
+                                    <span class="label">Bootstrap</span>
+                                    <span class="label">Angular</span>
+                                    <span class="label">Typescript</span>
+                                    <span class="label">Firebase</span>
+                                </div>
+                            </div>
+
+                            <div class="bottom-buttons">
+                                <button type="button" class="btn btn-md"><i class="fas fa-laptop-code"></i>Check Source</button>
+                                <button type="button" class="btn btn-md"><i class="fas fa-laptop"></i>Try the app</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 hidden-images">
+
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 my-col">
+                        <div class="inner-container">
+                            <h2 id="hoolieChatTitle"><span>Hoolie</span>Chat</h2>
+                            <hr />
+                            <p id="description">
+                                A chatting application made with the help of <i>Angular</i> and <i>Bootstrap</i> on the front end, while the back end
+                                is made with <i>Node</i> and <i>Express</i>. The core ideea is to use the <span class="light-blue">Socket.io</span> library both on the client and on the server
+                                side to allow an <span class="light-blue">event-dirven</span> communication between different clients that connect to the server. Also, the application
+                                is <span class="light-blue">session-oriented</span> so it does not provide persistent storage.
+                            </p>
+
+                            <div class="tech-used-container">
+                                <p id="tech-used">Technologies used</p>
+                                <div class="tech-used-line">
+                                    <span class="label">Html</span>
+                                    <span class="label">Css</span>
+                                    <span class="label">Bootstrap</span>
+                                    <span class="label">Angular</span>
+                                    <span class="label">Typescript</span>
+                                    <span class="label">Socket.io</span>
+                                    <span class="label">Node</span>
+                                    <span class="label">Express</span>
+                                </div>
+                            </div>
+
+                            <div class="bottom-buttons">
+                                <button type="button" class="btn btn-md"><i class="fas fa-laptop-code"></i>Check Source</button>
+                                <button type="button" class="btn btn-md"><i class="fas fa-laptop"></i>Try the app</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 hidden-images">
+
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 my-col">
+                        <div class="inner-container">
+                            <h2 id="myCompassTitle"><span style="color: #ee4c7c;">my</span>Compass</h2>
+                            <hr />
+                            <p id="description">A <i>replica</i> of AirBnb made for the purpose of <span class="light-purple">using APIs</span>, such as <span class="light-purple">Geolocation API</span> for
+                                finding the <i>exact position</i> of the current user, <span class="light-purple">Geocode API</span> which translates <i>coordinates</i> to an <i>address</i> and most importantly,
+                                the <span class="light-purple">Google Maps API</span>, which <i>maps</i> locations based on their <i>coordinates</i>. Also, there is some <span class="light-purple">vanilla javascript</span> for some of the
+                                functionalities. Again, I've used <i>Angular</i> and <i>Bootstrap</i> on the front end, and <i>Firebase</i> on the back end.
+                            </p>
+
+                            <div class="tech-used-container">
+                                <p id="tech-used">Technologies used</p>
+                                <div class="tech-used-line">
+                                    <span class="label">Html</span>
+                                    <span class="label">Css</span>
+                                    <span class="label">Bootstrap</span>
+                                    <span class="label">Angular</span>
+                                    <span class="label">Typescript</span>
+                                    <span class="label">Firebase</span>
+                                    <span class="label">Google APIs</span>
+                                </div>
+                            </div>
+
+                            <div class="bottom-buttons">
+                                <button type="button" class="btn btn-md"><i class="fas fa-laptop-code"></i>Check Source</button>
+                                <button type="button" class="btn btn-md"><i class="fas fa-laptop"></i>Try the app</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div style="text-align:center; position: absolute; bottom: 5px; width: 100%;">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+
+        </div>
+    </div>
+
+    <!-- The contact me section right bellow -->
+    <div class="container-fluid" id="contact" style="padding: 0 !important; z-index: -15 !important;"
+            data-sal-duration="600"
+            data-sal="slide-up"
+            data-sal-easing="ease-out-bounce"
+            data-sal-delay="0">
+
+        <div style="margin-top: 250px; margin-bottom: 0; z-index: 50 !important; width: 60%; margin-left: 20%; margin-right: 20%; position: relative;" class="black-contact">
+            <div class="contact-me-section">
+                <div class="row" style="width: 90%;">
+                    <div class="col-lg-4 text-center" style="display: flex; justify-content: center; align-items: center;">
+                        <h2 style="font-weight: bold; font-size: 2.2rem;" id="start-project">Start a project</h2>
+                    </div>
+                    <div class="col-lg-8 text-center">
+                        <p style="font-size: 110%;" id="under-start-project">Interested in working together? Send me your ideas and I will contact you as soon as I can with some expertise.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="continue-contact" style="z-index: -10 !important;">
+            <div style="width: 50%; margin-left: auto; margin-right: auto; padding: 3rem; padding-top: 150px;" class="last-section">
+                <div style="text-align: center; width: 100%; color: #fff; font-weight: bolder; margin-bottom: 50px; margin-top: -15px;" id="fill-info-div">
+                    Just fill in the fields bellow and that's it
+                </div>
+                <form>
+                    <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-right">
+                            <i class="fas fa-envelope" style="color: #fff; margin-top: 15px; font-size: 1.5rem;"></i>
+                        </div>
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                            <input type="text" placeholder="Email" class="form-control form-control-lg" />
+                        </div>
+                    </div>
+    
+                     <div class="row">
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 text-right">
+                            <i class="fas fa-sticky-note" style="color: #fff; margin-top: 15px; font-size: 1.5rem;"></i>
+                        </div>
+                        <div class="col-lg-11 col-md-11 col-sm-11 col-xs-11">
+                            <textarea cols="20" rows="10" class="form-control form-control-lg" placeholder="Describe your idea"></textarea>
+                        </div>
+                    </div>
+                
+                    <button type="button" class="btn btn-lg contact-button"><i class="fas fa-paper-plane" style="margin-right: 10px;"></i>Send</button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- The footer of the page -->
+    <footer>
+        <hr />
+        <div style="width: 100%; text-align: center; font-size: 1.2rem;" id="footer-find-me">
+            <span
+                data-sal-duration="600"
+                data-sal="slide-up"
+                data-sal-delay="200"
+                data-sal-easing="ease-out-bounce"
+            >Find me also on other platforms</span>
+        </div>
+        <div class="icons" style="width: 100%; text-align: center; font-size: 2.2rem; margin-bottom: 35px; word-spacing: 1rem;"
+                data-sal-duration="600"
+                data-sal="slide-up"
+                data-sal-delay="250"
+                data-sal-easing="ease-out-bounce">
+            <i class="fab fa-linkedin" style="color: #0077B5;"></i>
+            <i class="fab fa-github" style="color: #333;"></i>
+            <i class="fab fa-facebook-square" style="color: #3C5A99;"></i>
+        </div>
+        <div class="container text-center"
+                data-sal-duration="800"
+                data-sal="slide-up"
+                data-sal-delay="250"
+                data-sal-easing="fade">
+            <span>Copyright &copy; 2019 <strong>Plesoianu Andrei-Bogdan</strong></span>
+        </div>
+    </footer>
+
+
+    <!-- The scripts are placed right here -->
+    <script src="./assets/javascript/sal.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://kit.fontawesome.com/eff5d0d257.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <script src="./assets/javascript/main.js"></script>
+    <script src="./assets/javascript/scroll_jquery.js"></script>
+
+</body>
+</html>
